@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width,
+				initial-scale=1"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link href="./bootstrap.min.css" rel="stylesheet" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>home valuation loading</title>
+	</head>
+	<body>
+		<!-- banner -->
+		<section class="header">
+			<div class="banner w-auto pb-5 position-relative">
+				<div>
+					<div id="map-simple" style="height: 450px"></div>
+					<div
+						class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+					>
+						<div class="container">
+							<div
+								class="row justify-content-start col d-flex justify-content-end"
+							>
+								<div class="card w-auto h-auto shadow bg-white rounded-2 m-3">
+									<div class="card-body">
+										<h5 class="card-title">Your report is ready for</h5>
+										<h6 class="card-text fw-bold">
+											121 Tomlinson Dr, Folsom, CA 95630, USA 95630.
+										</h6>
+										<div class="row">
+											<div class="form-group mb-1">
+												<input
+													class="form-control mb-2"
+													type="text"
+													name="address"
+													placeholder="Enter your home adress"
+												/>
+
+												<select class="form-control mb-2">
+													<option value="quation">
+														What are you interested in?
+													</option>
+													<option value="exmple">exmple</option>
+													<option value="exmple1">exmple 1</option>
+													<option value="exmple2">exmple 2</option>
+												</select>
+												<a
+													type="button"
+													class="btn btn-success form-control text-light small"
+													href="#"
+													data-bs-toggle="modal"
+													data-bs-target="#reportModal"
+												>
+													View my report
+													<i class="bi bi-arrow-right"></i>
+													<svg
+														xmlns="http://www.w3.org/2000/svg"
+														width="16"
+														height="16"
+														fill="currentColor"
+														class="bi bi-arrow-right"
+														viewBox="0 0 16 16"
+													>
+														<path
+															fill-rule="evenodd"
+															d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+														/>
+													</svg>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Service-->
+		<section class="service">
+			<div class="container-xxl py-5">
+				<div class="container">
+					<h2 class="m-1 pb-2 fw-bold">Discover the value of your property</h2>
+					<div class="row g-4">
+						<div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
+							<div class="service-item">
+								<div class="p-4">
+									<img src="img/icon-track.png" />
+									<h5 class="mb-3">Track your home’s value</h5>
+									<p>
+										Instantly learn your home’s value and how much you could
+										sell for in today’s market.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 wow col-sm-12 fadeInUp" data-wow-delay="0.3s">
+							<div class="service-item">
+								<div class="p-4">
+									<img src="img/icon-trends.png" />
+									<h5 class="mb-3">See local market trends</h5>
+									<p>
+										Stay up to date on market changes and find out how much
+										homes like yours have sold in the past year.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 wow col-sm-12 fadeInUp" data-wow-delay="0.5s">
+							<div class="service-item">
+								<div class="p-4">
+									<img src="img/icon.png" />
+									<h5 class="mb-3">Get a free monthly home report</h5>
+									<p>
+										Receive a monthly email with updates about your home value
+										and how it’s changing.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--book-->
+		<section class="book">
+			<div class="container-xxl">
+				<div
+					class="container py-5 px-5 bg-success rounded rounded-3 text-light"
+				>
+					<div class="container">
+						<div class="row">
+							<div
+								class="col-lg-6 col-sm-12 wow fadeInUp"
+								data-wow-delay="0.1s"
+							>
+								<h5>Book an in-person valuation</h5>
+								<p style="font-size: 11px">
+									Get the most accurate valuation based on:
+								</p>
+								<div class="row gy-2 gx-4 mb-4">
+									<div class="col-sm-12">
+										<img src="img/icon-check.png" />
+										<span style="font-size: 11px"
+											>Your unique property features</span
+										>
+									</div>
+									<div class="col-sm-8">
+										<img src="img/icon-check.png" />
+										<span style="font-size: 11px"
+											>Our knowledge of the area</span
+										>
+									</div>
+									<div class="col-sm-8">
+										<img src="img/icon-check.png" />
+										<span style="font-size: 11px"
+											>The latest changes in the local market</span
+										>
+									</div>
+									<div class="col-lg-6">
+										<a
+											type="button"
+											class="btn btn-light form-control fw-bold"
+											style="color: #2f6e49"
+										>
+											Book now
+											<i class="bi bi-arrow-right"></i>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="16"
+												height="16"
+												fill="currentColor"
+												class="bi bi-arrow-right"
+												viewBox="0 0 16 16"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+												/>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div
+								class="col-lg-6 col-sm-12 wow fadeInUp d-none d-lg-block"
+								data-wow-delay="0.3s"
+							>
+								<img src="img/illustration.png" class="w-auto h-auto" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--PUMP-->
+		<section class="pump">
+			<div class="container-xxl py-5">
+				<div class="container">
+					<h2 class="m-1 pb-3 fw-bold">Pump up the value with our guides</h2>
+					<p class="small">
+						If you’re looking to sell quickly or boost the value of your home,
+						our expert free guides will help you do it like a pro.
+					</p>
+					<div class="row gap-3 fs-16 fw-bold">
+						<div class="col-lg wow fadeInUp" data-wow-delay="0.1s">
+							<div
+								class="card-deck h-100 rounded rounded-3 bg-light"
+								style="width: 18rem"
+							>
+								<div class="position-relative">
+									<img
+										src="img/guide-image-1.png"
+										class="img-fluid mx-3 mt-3"
+										alt="..."
+									/>
+									<div
+										class="position-absolute top-0 start-0 badge bg-warning fw-bold mx-4 mt-4 ms-4 text-success"
+									>
+										FREE GUIDE
+									</div>
+								</div>
+								<div class="card-body">
+									<p class="card-text">
+										The ultimate guide to selling your Home
+									</p>
+									<div>
+										<a
+											data-bs-toggle="modal"
+											data-bs-target="#guideModal"
+											class="border-bottom border-2 border-warning text-decoration-none"
+											style="color: #2f6e49"
+											>Download
+											<img class="mb-1" src="img/icon-download.png" alt=""
+										/></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg wow fadeInUp" data-wow-delay="0.1s">
+							<div
+								class="card-deck h-100 rounded rounded-3 bg-light"
+								style="width: 18rem"
+							>
+								<div class="position-relative">
+									<img
+										src="img/guide-image-2.png"
+										class="img-fluid mx-3 mt-3"
+										alt="..."
+									/>
+									<div
+										class="position-absolute top-0 start-0 badge bg-warning fw-bold mx-4 mt-4 ms-4 text-success"
+									>
+										FREE GUIDE
+									</div>
+								</div>
+								<div class="card-body">
+									<p class="card-text">How to increase your home value</p>
+									<div>
+										<a
+											data-bs-toggle="modal"
+											data-bs-target="#guideModal"
+											class="border-bottom border-2 border-warning text-decoration-none"
+											style="color: #2f6e49"
+											>Download
+											<img class="mb-1" src="img/icon-download.png" alt=""
+										/></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg wow fadeInUp" data-wow-delay="0.1s">
+							<div
+								class="card-deck h-100 rounded rounded-3 bg-light"
+								style="width: 18rem"
+							>
+								<div class="position-relative">
+									<img
+										src="img/guide-image-3.png"
+										class="img-fluid mx-3 mt-3"
+										alt="..."
+									/>
+									<div
+										class="position-absolute top-0 start-0 badge bg-warning fw-bold mx-4 mt-4 ms-4"
+										style="color: #2f6e49"
+									>
+										FREE GUIDE
+									</div>
+								</div>
+								<div class="card-body">
+									<p class="card-text">
+										25 factors that impact your home value
+									</p>
+									<div>
+										<a
+											data-bs-toggle="modal"
+											data-bs-target="#guideModal"
+											class="border-bottom border-2 border-warning text-decoration-none"
+											style="color: #2f6e49"
+											>Download
+											<img class="mb-1" src="img/icon-download.png" alt=""
+										/></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Reviews-->
+		<section class="review">
+			<div class="container-xxl">
+				<div class="container py-3">
+					<h2 class="m-1 pb-2 fw-bold">Recent Reviews</h2>
+				</div>
+				<div class="container my-4">
+					<div class="row my-2 bg-light text-dark rounded rounded-3 top-50">
+						<div class="px-4 py-3">
+							<img src="img/stars.png" alt="" />
+							<h6 class="fw-bold my-2">Highly likely to recommend</h6>
+							<p class="mb-2" style="font-size: 14px">
+								Jake made our dreams come true! He helped us find the perfect
+								location for a new home build and negotiated tirelessly to get
+								us a deal that worked within our budget. He then sold our
+								existing house on the first day it went on the market for the
+								price we had. Jake made our dreams come true! He helped us find
+								the perfect location for a new home build…
+							</p>
+							<span class="fw-bold small">03/02/2018-Matthew Liba</span>
+							<p style="font-size: 12px">
+								Bought and sold a Single Family home in 2022 in Folsom, CA.
+							</p>
+						</div>
+					</div>
+					<div class="row my-2 bg-light text-dark rounded rounded-3 top-50">
+						<div class="px-4 py-3">
+							<img src="img/stars.png" alt="" />
+							<h6 class="fw-bold my-2">Highly likely to recommend</h6>
+							<p class="mb-2" style="font-size: 14px">
+								Jake made our dreams come true! He helped us find the perfect
+								location for a new home build and negotiated tirelessly to get
+								us a deal that worked within our budget. He then sold our
+								existing house on the first day it went on the market for the
+								price we had. Jake made our dreams come true! He helped us find
+								the perfect location for a new home build…
+							</p>
+							<span class="fw-bold small">03/02/2018-Matthew Liba</span>
+							<p style="font-size: 12px">
+								Bought and sold a Single Family home in 2022 in Folsom, CA.
+							</p>
+						</div>
+					</div>
+					<div class="row my-2 bg-light text-dark rounded rounded-3 top-50">
+						<div class="px-4 py-3">
+							<img src="img/stars.png" alt="" />
+							<h6 class="fw-bold my-2">Highly likely to recommend</h6>
+							<p class="mb-2" style="font-size: 14px">
+								Jake made our dreams come true! He helped us find the perfect
+								location for a new home build and negotiated tirelessly to get
+								us a deal that worked within our budget. He then sold our
+								existing house on the first day it went on the market for the
+								price we had. Jake made our dreams come true! He helped us find
+								the perfect location for a new home build…
+							</p>
+							<span class="fw-bold small">03/02/2018-Matthew Liba</span>
+							<p style="font-size: 12px">
+								Bought and sold a Single Family home in 2022 in Folsom, CA.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--annonce-->
+		<section class="annonce mb-5">
+			<div class="container-xxl">
+				<div class="container">
+					<div class="row mt-2 gap-3">
+						<div
+							class="col-lg p-4 rounded rounded-3 text-dark"
+							style="background-color: #fef8e4"
+						>
+							<h6 class="fw-bold fs-5">How much is my home worth?</h6>
+							<div>
+								<span
+									class="border-bottom border-2 border-warning fw-bold text-success"
+									>Check price estimate
+									<img class="mb-1" src="img/icon-download.png" alt=""
+								/></span>
+							</div>
+						</div>
+						<div class="col-lg p-4 rounded rounded-3 text-dark bg-light">
+							<h6 class="fw-bold fs-5">Downpayment Assistance Available</h6>
+							<div>
+								<span
+									class="border-bottom border-2 border-warning fw-bold text-success"
+									>Learn More
+									<img class="mb-1" src="img/icon-download.png" alt=""
+								/></span>
+							</div>
+						</div>
+						<div
+							class="col-lg p-4 rounded rounded-3 text-dark"
+							style="background-color: #efefef"
+						>
+							<h6 class="fw-bold fs-5" ;>New Construction For Sale</h6>
+							<div>
+								<span
+									class="border-bottom border-2 border-warning fw-bold"
+									style="color: #2f6e49"
+									>learn More
+									<img class="mb-1" src="img/icon-download.png" alt=""
+								/></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Book Modal  -->
+		<div
+			class="modal modal-fullscreen-md-down fade"
+			id="reportModal"
+			tabindex="-1"
+			aria-labelledby="exampleModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="ms-3">
+						<div class="modal-body">
+							<div
+								class="row justify-content-lg-end justify-content-md-start me-2"
+							>
+								<!-- close btn desktop -->
+								<button
+									type="button"
+									class="btn-close d-none d-lg-block"
+									data-bs-dismiss="modal"
+									aria-label="Close"
+								></button>
+
+								<!-- back btn in mobile mode -->
+								<div class="mb-2">
+									<span
+										type="button"
+										class="d-lg-none fw-bold text-success border-bottom border-2 border-warning"
+										data-bs-dismiss="modal"
+										aria-label="Close"
+									>
+										<!-- Download SVG icon from http://tabler-icons.io/i/arrow-narrow-left -->
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="icon"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											stroke-width="2"
+											stroke="currentColor"
+											fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<line x1="5" y1="12" x2="19" y2="12" />
+											<line x1="5" y1="12" x2="9" y2="16" />
+											<line x1="5" y1="12" x2="9" y2="8" />
+										</svg>
+										Back
+									</span>
+								</div>
+							</div>
+							<div class="row mb-2">
+								<h5 class="modal-title" id="exampleModalLabel">
+									Book an in-person valuation
+								</h5>
+							</div>
+							<p>Get the most accurate valuation based on:</p>
+							<div class="row gy-2 gx-4 mb-4">
+								<div class="col-sm-12">
+									<img src="img/icon-check.png" />
+									<span style="font-size: 11px"
+										>Your unique property features</span
+									>
+								</div>
+								<div class="col-sm-8">
+									<img src="img/icon-check.png" />
+									<span style="font-size: 11px">Our knowledge of the area</span>
+								</div>
+								<div class="col-sm-8">
+									<img src="img/icon-check.png" />
+									<span style="font-size: 11px"
+										>The latest changes in the local market</span
+									>
+								</div>
+							</div>
+							<div class="form">
+								<label for="form-label small " style="font-family:black,sans-serif;">Name</label>
+								<input
+									type="text"
+									class="form-control"
+									name="name"
+									placeholder="Johen Doe"
+								/>
+								<label for="form-label small "  style="font-family:black,sans-serif;" >Adress</label>
+								<input
+									type="text"
+									class="form-control"
+									name="adress"
+									placeholder="123 Main Street, Los Angeles, CA"
+								/>
+								<label for="form-label small fw-bold"  style="font-family:black,sans-serif;">Adress Email</label>
+								<input
+									type="email"
+									class="form-control"
+									name="email"
+									placeholder="john@example.com"
+								/>
+								<label for="form-label small fw-bold"  style="font-family:black,sans-serif;">Phone Number</label>
+								<input
+									type="text"
+									class="form-control"
+									name="phone"
+									placeholder="123-456-7890"
+								/>
+								<a
+									type="button"
+									class="mt-2 btn btn-success form-control text-light"
+									data-bs-dismiss="modal"
+									data-bs-toggle="modal"
+									data-bs-target="#thanks-modal"
+								>
+									Save
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer d-lg-none" style="background-color: #f4f4f4">
+				<div class="row ms-5">
+					<div class="col-lg-4 col-sm-12">
+						<img class="mt-5" src="img/Mask_Group-3.png" />
+						<h6 class="fw-bold">Jake Brown</h6>
+						<h6 class="fw-bold">Realtor, Howard Hanna</h6>
+						<div>
+							<h6 class="fw-bold small">
+								Address:<span class="fw-normal">
+									123 Main Street, Folsom, CA
+								</span>
+							</h6>
+							<h6 class="fw-bold small">
+								Phone:<span class="fw-normal"> 202-555-0108</span>
+							</h6>
+							<h6 class="fw-bold small">
+								Office:<span class="fw-normal"> 202-555-0187</span>
+							</h6>
+							<h6 class="fw-bold small">
+								Email:<span class="fw-normal"> jake@howardhanna.com</span>
+							</h6>
+							<h6 class="fw-bold small">
+								License:<span class="fw-normal"> 123456, CA</span>
+							</h6>
+							<img class="my-2" src="img/logo.png" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-8 col-sm-12">
+						<div class="row mt-5 mb-5">
+							<div class="col-lg-6 col-sm-12">
+								<h6 class="fw-bold align-self-lg-end">Useful Links</h6>
+								<div
+									class="row"
+									style="font-size: 15px; font-family: Lato, Regular"
+								>
+									<div class="col-12">
+										<span class="border-bottom border-2 border-warning">
+											Search All Homes for Sale
+										</span>
+									</div>
+									<div class="col-12">
+										<span class="border-bottom border-2 border-warning"
+											>Downpayment Assistance Available</span
+										>
+									</div>
+									<div class="col-12">
+										<span class="border-bottom border-2 border-warning"
+											>New Construction For Sale</span
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<h6 class="fw-bold align self-lg-end">Connect</h6>
+								<div class="row">
+									<div class="col">
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-facebook.png"
+											/>
+										</a>
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-instagram.png"
+											/>
+										</a>
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-twitter.png"
+											/>
+										</a>
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-linkedin.png"
+											/>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="border border-bottom-1"></div>
+
+						<div class="my-5">
+							<img src="img/legal-logos.png" alt="" />
+							<div class="text-muted mt-2" style="font-size: 12px">
+								<p>
+									This is the legal description for my listings. This listing is
+									for demonstration purposes only. This property is NOT for
+									sale. Your privacy is important to us and we are committed to
+									protecting the privacy of our users and the information that
+									you share in connection with our Site.
+								</p>
+								<p class="my-3">
+									By searching, you agree to the <u>Terms of Use</u>, and
+									<u>Privacy Policy</u>.
+								</p>
+								<p>Copyright © 2022 ListingsToLeads. All rights reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- End Book Modal -->
+
+		<!-- Thanks Modal  -->
+		<div
+			class="modal modal-fullscreen-md-down fade"
+			tabindex="-1"
+			role="dialog"
+			id="thanks-modal"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="ms-3">
+						<div class="modal-body">
+							<div
+								class="row justify-content-lg-end justify-content-md-start me-2"
+							>
+								<!-- close btn desktop -->
+								<button
+									type="button"
+									class="btn-close d-none d-lg-block"
+									data-bs-dismiss="modal"
+									aria-label="Close"
+								></button>
+
+								<!-- back btn in mobile mode -->
+								<div class="mb-2">
+									<span
+										type="button"
+										class="d-lg-none fw-bold text-success border-bottom border-2 border-warning"
+										data-bs-dismiss="modal"
+										aria-label="Close"
+									>
+										<!-- Download SVG icon from http://tabler-icons.io/i/arrow-narrow-left -->
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="icon"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											stroke-width="2"
+											stroke="currentColor"
+											fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<line x1="5" y1="12" x2="19" y2="12" />
+											<line x1="5" y1="12" x2="9" y2="16" />
+											<line x1="5" y1="12" x2="9" y2="8" />
+										</svg>
+										Back
+									</span>
+								</div>
+
+								<div>
+									<h5 class="fw-bold">Thank you</h5>
+									<p>
+										Your enquiry has been sent successully. We will give you a
+										call soon to make arrangements for a valuation visit.
+									</p>
+								</div>
+								<div class="d-none d-lg-block">
+									<spana
+										class="fw-bold text-success border-bottom border-2 border-warning"
+										data-bs-dismiss="modal">close</span
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer d-lg-none" style="background-color: #f4f4f4">
+				<div class="row ms-5">
+					<div class="col-lg-4 col-sm-12">
+						<img class="mt-5" src="img/Mask_Group-3.png" />
+						<h6 class="fw-bold">Jake Brown</h6>
+						<h6 class="fw-bold">Realtor, Howard Hanna</h6>
+						<div>
+							<h6 class="fw-bold small">
+								Address:<span class="fw-normal">
+									123 Main Street, Folsom, CA
+								</span>
+							</h6>
+							<h6 class="fw-bold small">
+								Phone:<span class="fw-normal"> 202-555-0108</span>
+							</h6>
+							<h6 class="fw-bold small">
+								Office:<span class="fw-normal"> 202-555-0187</span>
+							</h6>
+							<h6 class="fw-bold small">
+								Email:<span class="fw-normal"> jake@howardhanna.com</span>
+							</h6>
+							<h6 class="fw-bold small">
+								License:<span class="fw-normal"> 123456, CA</span>
+							</h6>
+							<img class="my-2" src="img/logo.png" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-8 col-sm-12">
+						<div class="row mt-5 mb-5">
+							<div class="col-lg-6 col-sm-12">
+								<h6 class="fw-bold align-self-lg-end">Useful Links</h6>
+								<div
+									class="row"
+									style="font-size: 15px; font-family: Lato, Regular"
+								>
+									<div class="col-12">
+										<span class="border-bottom border-2 border-warning">
+											Search All Homes for Sale
+										</span>
+									</div>
+									<div class="col-12">
+										<span class="border-bottom border-2 border-warning"
+											>Downpayment Assistance Available</span
+										>
+									</div>
+									<div class="col-12">
+										<span class="border-bottom border-2 border-warning"
+											>New Construction For Sale</span
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<h6 class="fw-bold align self-lg-end">Connect</h6>
+								<div class="row">
+									<div class="col">
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-facebook.png"
+											/>
+										</a>
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-instagram.png"
+											/>
+										</a>
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-twitter.png"
+											/>
+										</a>
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-linkedin.png"
+											/>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="border border-bottom-1"></div>
+
+						<div class="my-5">
+							<img src="img/legal-logos.png" alt="" />
+							<div class="text-muted mt-2" style="font-size: 12px">
+								<p>
+									This is the legal description for my listings. This listing is
+									for demonstration purposes only. This property is NOT for
+									sale. Your privacy is important to us and we are committed to
+									protecting the privacy of our users and the information that
+									you share in connection with our Site.
+								</p>
+								<p class="my-3">
+									By searching, you agree to the <u>Terms of Use</u>, and
+									<u>Privacy Policy</u>.
+								</p>
+								<p>Copyright © 2022 ListingsToLeads. All rights reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- End Thanks Modal -->
+
+		<!--Guid Modal-->
+
+		<div
+			class="modal modal-fullscreen-md-down fade"
+			id="guideModal"
+			tabindex="-1"
+			aria-labelledby="exampleModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="ms-3">
+						<div class="modal-body">
+							<div
+								class="row justify-content-lg-end justify-content-md-start me-2"
+							>
+								<!-- close btn desktop -->
+								<button
+									type="button"
+									class="btn-close d-none d-lg-block"
+									data-bs-dismiss="modal"
+									aria-label="Close"
+								></button>
+
+								<!-- back btn in mobile mode -->
+								<div class="mb-2">
+									<span
+										type="button"
+										class="d-lg-none fw-bold text-success border-bottom border-2 border-warning"
+										data-bs-dismiss="modal"
+										aria-label="Close"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="icon"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											stroke-width="2"
+											stroke="currentColor"
+											fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<line x1="5" y1="12" x2="19" y2="12" />
+											<line x1="5" y1="12" x2="9" y2="16" />
+											<line x1="5" y1="12" x2="9" y2="8" />
+										</svg>
+										Back
+									</span>
+								</div>
+							</div>
+							<div class="row mb-2 w-100">
+								<div class="position-relative">
+									<img
+										src="img/guide-image-1.png"
+										class="img-fluid w-100"
+										alt="..."
+									/>
+									<div
+										class="position-absolute top-0 start-0 badge bg-warning fw-bold mx-4 mt-4 ms-4"
+										style="color: #2f6e49"
+									>
+										FREE GUIDE
+									</div>
+								</div>
+							</div>
+
+							<div class="row gy-2 gx-4 mb-4">
+								<h5 class="mb-2 fw-bold">
+									The ultimate guide to selling your home
+								</h5>
+								<p>
+									Learn what to expect every step of the way, how to negotiate
+									your home sale, tips from experienced realtors and more.
+								</p>
+							</div>
+							<div class="form">
+								<label for="form-label small " style="font-family:black,sans-serif;">Name</label>
+								<input
+									type="text"
+									class="form-control"
+									name="name"
+									placeholder="Johen Doe"
+								/>
+								<label for="form-label small "  style="font-family:black,sans-serif;" >Adress</label>
+								<input
+									type="text"
+									class="form-control"
+									name="adress"
+									placeholder="123 Main Street, Los Angeles, CA"
+								/>
+								<label for="form-label small fw-bold"  style="font-family:black,sans-serif;">Adress Email</label>
+								<input
+									type="email"
+									class="form-control"
+									name="email"
+									placeholder="john@example.com"
+								/>
+								<label for="form-label small fw-bold"  style="font-family:black,sans-serif;">Phone Number</label>
+								<input
+									type="text"
+									class="form-control"
+									name="phone"
+									placeholder="123-456-7890"
+								/>
+								<a
+									type="button"
+									class="mt-2 btn btn-success form-control text-light"
+									data-bs-dismiss="modal"
+									data-bs-toggle="modal"
+									data-bs-target="#thanks-modal"
+								>
+									Save
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer d-lg-none" style="background-color: #f4f4f4">
+				<div class="row ms-5">
+					<div class="col-lg-4 col-sm-12">
+						<img class="mt-5" src="img/Mask_Group-3.png" />
+						<h6 class="fw-bold">Jake Brown</h6>
+						<h6 class="fw-bold">Realtor, Howard Hanna</h6>
+						<div>
+							<h6 class="fw-bold small">
+								Address:<span class="fw-normal">
+									123 Main Street, Folsom, CA
+								</span>
+							</h6>
+							<h6 class="fw-bold small">
+								Phone:<span class="fw-normal"> 202-555-0108</span>
+							</h6>
+							<h6 class="fw-bold small">
+								Office:<span class="fw-normal"> 202-555-0187</span>
+							</h6>
+							<h6 class="fw-bold small">
+								Email:<span class="fw-normal"> jake@howardhanna.com</span>
+							</h6>
+							<h6 class="fw-bold small">
+								License:<span class="fw-normal"> 123456, CA</span>
+							</h6>
+							<img class="my-2" src="img/logo.png" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-8 col-sm-12">
+						<div class="row mt-5 mb-5">
+							<div class="col-lg-6 col-sm-12">
+								<h6 class="fw-bold align-self-lg-end">Useful Links</h6>
+								<div
+									class="row"
+									style="font-size: 15px; font-family: Lato, Regular"
+								>
+									<div class="col-12">
+										<span class="border-bottom border-2 border-warning">
+											Search All Homes for Sale
+										</span>
+									</div>
+									<div class="col-12">
+										<span class="border-bottom border-2 border-warning"
+											>Downpayment Assistance Available</span
+										>
+									</div>
+									<div class="col-12">
+										<span class="border-bottom border-2 border-warning"
+											>New Construction For Sale</span
+										>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<h6 class="fw-bold align self-lg-end">Connect</h6>
+								<div class="row">
+									<div class="col">
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-facebook.png"
+											/>
+										</a>
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-instagram.png"
+											/>
+										</a>
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-twitter.png"
+											/>
+										</a>
+										<a
+											class="btn btn-primary bg-success rounded-circle"
+											href="#!"
+											role="button"
+											><img
+												class="justify-content-center"
+												src="img/logo-linkedin.png"
+											/>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="border border-bottom-1"></div>
+
+						<div class="my-5">
+							<img src="img/legal-logos.png" alt="" />
+							<div class="text-muted mt-2" style="font-size: 12px">
+								<p>
+									This is the legal description for my listings. This listing is
+									for demonstration purposes only. This property is NOT for
+									sale. Your privacy is important to us and we are committed to
+									protecting the privacy of our users and the information that
+									you share in connection with our Site.
+								</p>
+								<p class="my-3">
+									By searching, you agree to the <u>Terms of Use</u>, and
+									<u>Privacy Policy</u>.
+								</p>
+								<p>Copyright © 2022 ListingsToLeads. All rights reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- End Guide -->
+		<!--Footer-->
+		<footer class="footer" style="background-color: #f4f4f4">
+			<div class="row ms-5">
+				<div class="col-lg-4 col-sm-12">
+					<img class="mt-5" src="img/Mask_Group-3.png" />
+					<h6 class="fw-bold">Jake Brown</h6>
+					<h6 class="fw-bold">Realtor, Howard Hanna</h6>
+					<div>
+						<h6 class="fw-bold small">
+							Address:<span class="fw-normal">
+								123 Main Street, Folsom, CA
+							</span>
+						</h6>
+						<h6 class="fw-bold small">
+							Phone:<span class="fw-normal"> 202-555-0108</span>
+						</h6>
+						<h6 class="fw-bold small">
+							Office:<span class="fw-normal"> 202-555-0187</span>
+						</h6>
+						<h6 class="fw-bold small">
+							Email:<span class="fw-normal"> jake@howardhanna.com</span>
+						</h6>
+						<h6 class="fw-bold small">
+							License:<span class="fw-normal"> 123456, CA</span>
+						</h6>
+						<img class="my-2" src="img/logo.png" alt="" />
+					</div>
+				</div>
+				<div class="col-lg-8 col-sm-12">
+					<div class="row mt-5 mb-5">
+						<div class="col-lg-6 col-sm-12">
+							<h6 class="fw-bold align-self-lg-end">Useful Links</h6>
+							<div
+								class="row"
+								style="font-size: 15px; font-family: Lato, Regular"
+							>
+								<div class="col-12">
+									<span class="border-bottom border-2 border-warning">
+										Search All Homes for Sale
+									</span>
+								</div>
+								<div class="col-12">
+									<span class="border-bottom border-2 border-warning"
+										>Downpayment Assistance Available</span
+									>
+								</div>
+								<div class="col-12">
+									<span class="border-bottom border-2 border-warning"
+										>New Construction For Sale</span
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<h6 class="fw-bold align self-lg-end">Connect</h6>
+							<div class="row">
+								<div class="col">
+									<a
+										class="btn btn-primary bg-success rounded-circle"
+										href="#!"
+										role="button"
+										><img
+											class="justify-content-center"
+											src="img/logo-facebook.png"
+										/>
+									</a>
+									<a
+										class="btn btn-primary bg-success rounded-circle"
+										href="#!"
+										role="button"
+										><img
+											class="justify-content-center"
+											src="img/logo-instagram.png"
+										/>
+									</a>
+									<a
+										class="btn btn-primary bg-success rounded-circle"
+										href="#!"
+										role="button"
+										><img
+											class="justify-content-center"
+											src="img/logo-twitter.png"
+										/>
+									</a>
+									<a
+										class="btn btn-primary bg-success rounded-circle"
+										href="#!"
+										role="button"
+										><img
+											class="justify-content-center"
+											src="img/logo-linkedin.png"
+										/>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="border border-bottom-1"></div>
+
+					<div class="my-5">
+						<img src="img/legal-logos.png" alt="" />
+						<div class="text-muted mt-2" style="font-size: 12px">
+							<p>
+								This is the legal description for my listings. This listing is
+								for demonstration purposes only. This property is NOT for sale.
+								Your privacy is important to us and we are committed to
+								protecting the privacy of our users and the information that you
+								share in connection with our Site.
+							</p>
+							<p class="my-3">
+								By searching, you agree to the <u>Terms of Use</u>, and
+								<u>Privacy Policy</u>.
+							</p>
+							<p>Copyright © 2022 ListingsToLeads. All rights reserved.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js"></script>
+		<!-- Tabler Core -->
+		<script src="./dist/js/tabler.min.js"></script>
+		<script src="./dist/js/demo.min.js"></script>
+		<script>
+			// @formatter:off
+			document.addEventListener("DOMContentLoaded", function () {
+				mapboxgl.accessToken =
+					"pk.eyJ1IjoiY29kZWNhbG0iLCJhIjoiSzRiOVJvQSJ9.BUVkTT6IYs83xSUs4H7bjQ";
+				var map = new mapboxgl.Map({
+					container: "map-simple",
+					style: "mapbox://styles/mapbox/streets-v11",
+					zoom: 13,
+					center: [13.4049, 52.518827],
+				});
+			});
+			// @formatter:on
+		</script>
+		<script>
+			// @formatter:off
+			document.addEventListener("DOMContentLoaded", function () {
+				mapboxgl.accessToken =
+					"pk.eyJ1IjoiY29kZWNhbG0iLCJhIjoiSzRiOVJvQSJ9.BUVkTT6IYs83xSUs4H7bjQ";
+				var map = new mapboxgl.Map({
+					container: "map-light",
+					style: "mapbox://styles/mapbox/light-v10",
+					zoom: 11,
+					center: [-0.2416782, 51.5285582],
+				});
+			});
+			// @formatter:on
+		</script>
+		<script>
+			// @formatter:off
+			document.addEventListener("DOMContentLoaded", function () {
+				mapboxgl.accessToken =
+					"pk.eyJ1IjoiY29kZWNhbG0iLCJhIjoiSzRiOVJvQSJ9.BUVkTT6IYs83xSUs4H7bjQ";
+				var map = new mapboxgl.Map({
+					container: "map-markers",
+					style: "mapbox://styles/mapbox/light-v10",
+					zoom: 1,
+					center: [0, 0],
+				});
+				new mapboxgl.Marker({ color: "#206bc4" })
+					.setLngLat([-58.666667, -34.58333333])
+					.addTo(map);
+				new mapboxgl.Marker({ color: "#206bc4" })
+					.setLngLat([16.366667, 48.2])
+					.addTo(map);
+				new mapboxgl.Marker({ color: "#206bc4" })
+					.setLngLat([116.383333, 39.91666667])
+					.addTo(map);
+				new mapboxgl.Marker({ color: "#206bc4" })
+					.setLngLat([149.133333, -35.26666667])
+					.addTo(map);
+				new mapboxgl.Marker({ color: "#206bc4" })
+					.setLngLat([58.583333, 23.61666667])
+					.addTo(map);
+				new mapboxgl.Marker({ color: "#206bc4" })
+					.setLngLat([-77, 38.883333])
+					.addTo(map);
+			});
+			// @formatter:on
+		</script>
+		<script>
+			// @formatter:off
+			document.addEventListener("DOMContentLoaded", function () {
+				mapboxgl.accessToken =
+					"pk.eyJ1IjoiY29kZWNhbG0iLCJhIjoiSzRiOVJvQSJ9.BUVkTT6IYs83xSUs4H7bjQ";
+				var map = new mapboxgl.Map({
+					container: "map-card",
+					style: "mapbox://styles/mapbox/satellite-v9",
+					zoom: 1,
+					center: [0, 0],
+				});
+			});
+			// @formatter:on
+		</script>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
